@@ -1,38 +1,3 @@
- Esso — Teljes Wiki (Magyar)
-
-> Automatikusan lefordítva és összeállítva a deepwiki.com alapján.
-
-
-
- Tartalom
-
-1. [Áttekintés](áttekintés)
-2. [Első lépések](első-lépések)
-3. [Architektúra és modulhatárok](architektúra-és-modulhatárok)
-4. [Alapvető adatszerkezetek](alapvető-adatszerkezetek)
-5. [OptimizationState](optimizationstate)
-6. [EntanglementInfo és NodePairKey](entanglementinfo-és-nodepairkey)
-7. [OptimizationStatistics](optimizationstatistics)
-8. [Szimmetria alrendszer](szimmetria-alrendszer)
-9. [SymmetryGroup és SymmetryTransform](symmetrygroup-és-symmetrytransform)
-10. [SymmetryPattern és szimmetria detektálás](symmetrypattern-és-szimmetria-detektálás)
-11. [Optimalizációs motor](optimalizációs-motor)
-12. [EntangledStochasticSymmetryOptimizer: Konfiguráció és életciklus](entangledstochasticsymmetryoptimizer-konfiguráció-és-életciklus)
-13. [Az optimalizációs ciklus](az-optimalizációs-ciklus)
-14. [Lépéstípusok és az UndoLog](lépéstípusok-és-az-undolog)
-15. [Elfogadási kritérium és hőmérséklet-ütemezés](elfogadási-kritérium-és-hőmérséklet-ütemezés)
-16. [Célfüggvények](célfüggvények)
-17. [Beépített célfüggvények](beépített-célfüggvények)
-18. [Egyéni célfüggvények](egyéni-célfüggvények)
-19. [Memóriakezelés és biztonság](memóriakezelés-és-biztonság)
-20. [Tulajdonosi modell és mély másolás](tulajdonosi-modell-és-mély-másolás)
-21. [UndoLog memóriabiztonság](undolog-memóriabiztonság)
-22. [Szójegyzék](szójegyzék)
-
-
-
- 
-
 Az Entangled Stochastic Symmetry Optimizer (ESSO) egy Zig nyelven írt, nagy teljesítményű optimalizációs motor. Arra tervezték, hogy komplex, önhasonló gráfokként ábrázolt relációs struktúrákat optimalizáljon a szimulált hűtés (simulated annealing), a kvantummechanika és a fraktálgeometria technikáinak ötvözésével.
 
 A projekt azt a kihívást kezeli, hogy globális minimumokat találjon olyan többdimenziós állapottérben, ahol a hagyományos gradiens ereszkedés (gradient descent) kudarcot vall a rögös energiatájképek miatt. A Symmetry Detection (szimmetria detektálás) kihasználásával az optimalizáló nagy léptékű kvantumugrásokat hajthat végre a keresési térben, míg az Entanglement (összefonódás) modellek hosszú távú korrelációkat biztosítanak a gráf csomópontjai között, amelyek irányítják a sztochasztikus keresési folyamatot.
